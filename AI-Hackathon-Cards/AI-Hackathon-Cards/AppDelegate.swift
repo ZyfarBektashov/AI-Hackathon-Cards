@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        setupNavigationBar()
         return true
     }
 
@@ -41,6 +43,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    private func setupNavigationBar() {
+        UINavigationBar.appearance().tintColor = .black
+        UINavigationBar.appearance().backgroundColor = .clear
+        //UINavigationBar.appearance().barTintColor = .clear
+        //UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: .black, NSAttributedStringKey.font: UIFont(name: Fonts.openSansSemibold, size: 17)!]
+        UINavigationBar.appearance().isTranslucent = true
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+    }
 }
 

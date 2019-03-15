@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190EBEAD223B694C00DEC50A /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBEAC223B694C00DEC50A /* CategoryCollectionViewCell.swift */; };
+		190EBEAF223B6D8B00DEC50A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBEAE223B6D8B00DEC50A /* ListViewController.swift */; };
+		190EBEB1223B734000DEC50A /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBEB0223B734000DEC50A /* ListTableViewCell.swift */; };
+		190EBEB3223B7C9200DEC50A /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBEB2223B7C9200DEC50A /* RatingViewController.swift */; };
+		190EBEB5223B818D00DEC50A /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190EBEB4223B818D00DEC50A /* RatingTableViewCell.swift */; };
 		1971FC9C223AAEA400AE071C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FC9B223AAEA400AE071C /* AppDelegate.swift */; };
 		1971FC9E223AAEA400AE071C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FC9D223AAEA400AE071C /* ViewController.swift */; };
 		1971FCA1223AAEA400AE071C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1971FC9F223AAEA400AE071C /* Main.storyboard */; };
 		1971FCA3223AAEA500AE071C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1971FCA2223AAEA500AE071C /* Assets.xcassets */; };
 		1971FCA6223AAEA500AE071C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1971FCA4223AAEA500AE071C /* LaunchScreen.storyboard */; };
+		1971FCB0223AAEEC00AE071C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCAD223AAEEC00AE071C /* Constants.swift */; };
+		1971FCB1223AAEEC00AE071C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCAE223AAEEC00AE071C /* CardView.swift */; };
+		1971FCB2223AAEEC00AE071C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCAF223AAEEC00AE071C /* Extensions.swift */; };
+		1971FCB4223AB54500AE071C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCB3223AB54500AE071C /* DataManager.swift */; };
+		1971FCB6223AD7A700AE071C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCB5223AD7A700AE071C /* MainViewController.swift */; };
+		1971FCB8223ADFB200AE071C /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCB7223ADFB200AE071C /* CardViewController.swift */; };
+		1971FCBC223AF6D600AE071C /* HTTPRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCB9223AF6D600AE071C /* HTTPRequestManager.swift */; };
+		1971FCBD223AF6D600AE071C /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCBA223AF6D600AE071C /* HTTPStatusCode.swift */; };
+		1971FCBE223AF6D600AE071C /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971FCBB223AF6D600AE071C /* ServerManager.swift */; };
+		1FF53A91DE28304E4AC20397 /* Pods_AI_Hackathon_Cards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83D56D627FBF628E3063A69 /* Pods_AI_Hackathon_Cards.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190EBEAC223B694C00DEC50A /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		190EBEAE223B6D8B00DEC50A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		190EBEB0223B734000DEC50A /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		190EBEB2223B7C9200DEC50A /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		190EBEB4223B818D00DEC50A /* RatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
 		1971FC98223AAEA300AE071C /* AI-Hackathon-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-Hackathon-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1971FC9B223AAEA400AE071C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1971FC9D223AAEA400AE071C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,18 @@
 		1971FCA2223AAEA500AE071C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1971FCA5223AAEA500AE071C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1971FCA7223AAEA500AE071C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1971FCAD223AAEEC00AE071C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1971FCAE223AAEEC00AE071C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1971FCAF223AAEEC00AE071C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1971FCB3223AB54500AE071C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1971FCB5223AD7A700AE071C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1971FCB7223ADFB200AE071C /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		1971FCB9223AF6D600AE071C /* HTTPRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestManager.swift; sourceTree = "<group>"; };
+		1971FCBA223AF6D600AE071C /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		1971FCBB223AF6D600AE071C /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		37EFEF16BC135267A3FD6873 /* Pods-AI-Hackathon-Cards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Hackathon-Cards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AI-Hackathon-Cards/Pods-AI-Hackathon-Cards.debug.xcconfig"; sourceTree = "<group>"; };
+		A83D56D627FBF628E3063A69 /* Pods_AI_Hackathon_Cards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_Hackathon_Cards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1E4942DD05C3AB90C3CE14 /* Pods-AI-Hackathon-Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI-Hackathon-Cards.release.xcconfig"; path = "Pods/Target Support Files/Pods-AI-Hackathon-Cards/Pods-AI-Hackathon-Cards.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF53A91DE28304E4AC20397 /* Pods_AI_Hackathon_Cards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,8 @@
 			children = (
 				1971FC9A223AAEA300AE071C /* AI-Hackathon-Cards */,
 				1971FC99223AAEA300AE071C /* Products */,
+				323EF0939CAC6136F62E6CFB /* Pods */,
+				ED8692C2EC8AA043E5D10B77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,45 @@
 		1971FC9A223AAEA300AE071C /* AI-Hackathon-Cards */ = {
 			isa = PBXGroup;
 			children = (
+				1971FCB9223AF6D600AE071C /* HTTPRequestManager.swift */,
+				1971FCBA223AF6D600AE071C /* HTTPStatusCode.swift */,
+				1971FCBB223AF6D600AE071C /* ServerManager.swift */,
+				1971FCAE223AAEEC00AE071C /* CardView.swift */,
+				1971FCAD223AAEEC00AE071C /* Constants.swift */,
+				1971FCAF223AAEEC00AE071C /* Extensions.swift */,
 				1971FC9B223AAEA400AE071C /* AppDelegate.swift */,
 				1971FC9D223AAEA400AE071C /* ViewController.swift */,
 				1971FC9F223AAEA400AE071C /* Main.storyboard */,
 				1971FCA2223AAEA500AE071C /* Assets.xcassets */,
 				1971FCA4223AAEA500AE071C /* LaunchScreen.storyboard */,
 				1971FCA7223AAEA500AE071C /* Info.plist */,
+				1971FCB3223AB54500AE071C /* DataManager.swift */,
+				1971FCB5223AD7A700AE071C /* MainViewController.swift */,
+				1971FCB7223ADFB200AE071C /* CardViewController.swift */,
+				190EBEAC223B694C00DEC50A /* CategoryCollectionViewCell.swift */,
+				190EBEAE223B6D8B00DEC50A /* ListViewController.swift */,
+				190EBEB0223B734000DEC50A /* ListTableViewCell.swift */,
+				190EBEB2223B7C9200DEC50A /* RatingViewController.swift */,
+				190EBEB4223B818D00DEC50A /* RatingTableViewCell.swift */,
 			);
 			path = "AI-Hackathon-Cards";
+			sourceTree = "<group>";
+		};
+		323EF0939CAC6136F62E6CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37EFEF16BC135267A3FD6873 /* Pods-AI-Hackathon-Cards.debug.xcconfig */,
+				AE1E4942DD05C3AB90C3CE14 /* Pods-AI-Hackathon-Cards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED8692C2EC8AA043E5D10B77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A83D56D627FBF628E3063A69 /* Pods_AI_Hackathon_Cards.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1971FCAA223AAEA500AE071C /* Build configuration list for PBXNativeTarget "AI-Hackathon-Cards" */;
 			buildPhases = (
+				25F43FEE4000B4BB724C514F /* [CP] Check Pods Manifest.lock */,
 				1971FC94223AAEA300AE071C /* Sources */,
 				1971FC95223AAEA300AE071C /* Frameworks */,
 				1971FC96223AAEA300AE071C /* Resources */,
+				8C0BE0864DAB50E18F680F92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +198,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25F43FEE4000B4BB724C514F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AI-Hackathon-Cards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0BE0864DAB50E18F680F92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AI-Hackathon-Cards/Pods-AI-Hackathon-Cards-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AI-Hackathon-Cards/Pods-AI-Hackathon-Cards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1971FC94223AAEA300AE071C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1971FCBD223AF6D600AE071C /* HTTPStatusCode.swift in Sources */,
+				1971FCB6223AD7A700AE071C /* MainViewController.swift in Sources */,
+				1971FCB2223AAEEC00AE071C /* Extensions.swift in Sources */,
+				1971FCB4223AB54500AE071C /* DataManager.swift in Sources */,
+				190EBEAD223B694C00DEC50A /* CategoryCollectionViewCell.swift in Sources */,
 				1971FC9E223AAEA400AE071C /* ViewController.swift in Sources */,
+				190EBEB3223B7C9200DEC50A /* RatingViewController.swift in Sources */,
+				1971FCB8223ADFB200AE071C /* CardViewController.swift in Sources */,
+				190EBEB1223B734000DEC50A /* ListTableViewCell.swift in Sources */,
 				1971FC9C223AAEA400AE071C /* AppDelegate.swift in Sources */,
+				1971FCB1223AAEEC00AE071C /* CardView.swift in Sources */,
+				1971FCB0223AAEEC00AE071C /* Constants.swift in Sources */,
+				190EBEB5223B818D00DEC50A /* RatingTableViewCell.swift in Sources */,
+				1971FCBC223AF6D600AE071C /* HTTPRequestManager.swift in Sources */,
+				190EBEAF223B6D8B00DEC50A /* ListViewController.swift in Sources */,
+				1971FCBE223AF6D600AE071C /* ServerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +401,13 @@
 		};
 		1971FCAB223AAEA500AE071C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EFEF16BC135267A3FD6873 /* Pods-AI-Hackathon-Cards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4459UQ4UL2;
 				INFOPLIST_FILE = "AI-Hackathon-Cards/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +421,13 @@
 		};
 		1971FCAC223AAEA500AE071C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1E4942DD05C3AB90C3CE14 /* Pods-AI-Hackathon-Cards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4459UQ4UL2;
 				INFOPLIST_FILE = "AI-Hackathon-Cards/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
